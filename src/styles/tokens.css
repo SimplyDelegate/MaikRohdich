@@ -1,0 +1,27 @@
+/*
+ * Vorläufige Arbeitswerte für die technische Komponentenbasis.
+ * Sie sind keine freigegebene Corporate-Design-Definition und müssen nach
+ * Sichtung der originalen Logo- und Visitenkartenwerte überprüft werden.
+ */
+:root {
+  --work-anthracite: #252a27;
+  --work-logo-green: #55724a;
+  --work-logo-yellow: #d2aa45;
+  --work-accent-red: #9d4b43;
+  --work-surface: #f7f7f3;
+  --work-surface-strong: #eceee8;
+  --work-border: #d9ddd6;
+  --work-shadow: 0 18px 50px rgb(37 42 39 / 8%);
+}
+
+@theme inline {
+  --color-anthracite: var(--work-anthracite);
+  --color-logo-green: var(--work-logo-green);
+  --color-logo-yellow: var(--work-logo-yellow);
+  --color-accent-red: var(--work-accent-red);
+  --color-surface: var(--work-surface);
+  --color-surface-strong: var(--work-surface-strong);
+  --color-work-border: var(--work-border);
+  --shadow-work: var(--work-shadow);
+  --font-sans: Arial, Helvetica, sans-serif;
+}
