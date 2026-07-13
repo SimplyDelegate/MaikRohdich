@@ -1,0 +1,24 @@
+# Dependencies
+/node_modules
+
+# Next.js
+/.next/
+/out/
+/build/
+
+# Tests
+/coverage/
+/playwright-report/
+/test-results/
+/blob-report/
+
+# Environment files (explicitly opt in if one must be committed)
+.env*
+
+# Tooling and operating system files
+.DS_Store
+*.pem
+*.tsbuildinfo
+next-env.d.ts
+.pnpm-debug.log*
+.vercel/
